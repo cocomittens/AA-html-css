@@ -1,1 +1,12 @@
 /* PHASE 4: Footer */
+.footer {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main {
+    min-height: 100px;
+    background-color: white;
+    width: 100%;
+}
