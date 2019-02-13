@@ -1,0 +1,30 @@
+/* PHASE 9: Forms */
+.post-form {
+    float:left;
+    background: #dedede;
+    margin-left: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.form-thumb {
+    float: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    background-color: #eee;
+}
+
+.submit > button {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 16px;
+}
