@@ -14,17 +14,37 @@
 label {
     display: block;
     font-weight: bold;
+    margin: 10px;
 }
 
 input, textarea {
     background-color: #eee;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input {
+    padding: 7px 160px;
+
+}
+
+textarea {
+    padding: 50px 160px;
+
 }
 
 .submit > button {
-    background: red;
+    background: #FF0000;
     color: white;
     border-radius: 5px;
     font-weight: bold;
     padding: 5px 10px;
     font-size: 16px;
+    box-shadow: 3px 2px 2px #333;
+    margin: 10px;
+}
+
+.submit > button:hover {
+    background: #FF5555;
 }
